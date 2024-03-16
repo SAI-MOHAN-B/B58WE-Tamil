@@ -1,0 +1,64 @@
+Basics of Programming:
+
+variable, Loop, conditions, Operators,RAM...
+Assembly, Compiler, Array..
+
+Programming:
+
+Javascript...
+MERN
+Resources:
+CPU,Memory..
+Memory: RAM and ROM
+RAM:random Access Memory
+ROM: read Only Memory
+
+IDE:integrated development Environment..
+Online as well as Offline
+Online:GUVI IDE, Python Tutor..
+Offline: vscode..
+
+// Comments..
+// Level 01: variables
+// A variable is a name given to memory Location..
+// Syntax: var variablename
+var a = 32;
+// Data Type: Number, String, Boolean....
+// Number: 23,-9,8.333333,2052878984584864784
+// Strings: sdnvcjkasbvhjiasbfvghjiasbdfvhiabsru, a,b,c,d,ef,g,john doe..
+// Boolean: true false...
+var names = "john doe"
+// Operators:
+// Arithemetic, Assignment, Logical, Bitwise, Comparision..
+// Arithemetic:+,-,*,/,%..
+// Assignment: = 
+// Logical: and or not
+// Bitwise: &*,||,^
+// Comparision Operator: >,<,>=,<=,!= , == , ===
+
+
+// Comparision Operator will Always gives the result in terms 
+// Of true or false
+
+
+
+// If the comparision operator results in yes then the 
+// Output value will be true(boolean)
+
+// If The comparision Operator results in no then the 
+// Output value will be false(boolean)
+
+// Comparision Operator will be useful when you are using the conditional statement...
+
+// Conditional Statements:
+// They will work based on the certain conditions
+// Ex: if, if-else, if-else-if,else-if else..
+// Syntax:if(condition){}else{}
+var a = 32;
+var b = 31;
+if(a<b){
+console.log("a is greater than b")
+}
+else{
+console.log("a is lesser than b");
+}
