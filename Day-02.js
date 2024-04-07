@@ -58,3 +58,29 @@ stuname.name = "mary"
 // Syntax: delete objectname.keyname
 delete stuname.age
 console.log(stuname)
+// Accessing:
+// 2 types of Accessing are there
+// 1. Method (.)DOT method (commonly used)
+// 2. Box Method
+// Syntax: console.log(objectname["keyname"]);
+// This method is help ful when you wanted to print the key value pair 
+// using for-in loop
+
+
+// for-in loop
+// it is a uni-directional loop
+// it will move in the forward direction only
+// It is applicable to key:value pair Objects
+// Syntax: for(var key in Object){}
+// for(var i in stuname){
+// console.log(stuname[i]);
+// }
+// Array of Objects
+var res = [{name:"john doe",age:23},{name:"mary",age:24}]
+// Syntax: arrayname[indexnumber].keyname
+console.log(res[0].age);
+console.log(res[1].name);
+for(var i=0;i<res.length;i++){
+// Store each Objects in a variable ar obj = res[i];
+console.log(res[i].name,res[i].age);
+}
