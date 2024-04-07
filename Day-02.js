@@ -84,3 +84,21 @@ for(var i=0;i<res.length;i++){
 // Store each Objects in a variable ar obj = res[i];
 console.log(res[i].name,res[i].age);
 }
+
+
+// Copy by value
+// Copy By reference
+
+
+// Copy By value are Applicable to the Primitive  Data types
+var a =32
+var b = 33
+var a = 576
+console.log(a);
+console.log(b);
+
+// Copy By reference are Applicable to the Complex Data types
+var arr = [12,134,14];
+var arr1 = arr;
+arr1[2] = 145
+console.log(arr);
